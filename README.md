@@ -1,5 +1,13 @@
 # speedify-webserver
 
+## Use case
+
+You have a router (raspberry) on wich you installed speedify.
+
+You share the speedify connection with all your home devices.
+
+You want to see simple informations without connecting over SSH to your router and run `speedify_cli` commands.
+
 ## Install
 
 Clone this project.
