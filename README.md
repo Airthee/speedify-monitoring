@@ -1,4 +1,4 @@
-# speedify-webserver
+# speedify-monitoring
 
 ## Install
 
