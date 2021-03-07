@@ -1,0 +1,18 @@
+{
+  "name": "speedify-webserver",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "airthee",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^6.0.0"
+  },
+  "scripts": {
+    "client:dev": "cd client && yarn dev",
+    "server:dev": "cd server && yarn dev",
+    "dev": "concurrently \"yarn client:dev\" \"yarn server:dev\"",
+    "client:install": "cd client && yarn install",
+    "server:install": "cd server && yarn install",
+    "install": "yarn client:install && yarn server:install"
+  }
+}
